@@ -1,5 +1,5 @@
 lineCount = 1
-fileContents = []
+tmpTexts = []
 
 try: 
   while True: 
