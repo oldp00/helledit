@@ -1,3 +1,5 @@
+import sys
+
 lineCount = 1
 tmpTexts = []
 
@@ -11,3 +13,6 @@ except KeyboardInterrupt:
   print("\nCommand Mode")
   while True:
     command = input("$ ~ ")
+    
+    if command == "exit":
+      sys.exit()
