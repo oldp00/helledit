@@ -4,7 +4,7 @@ tmpTexts = []
 try: 
   while True: 
     text = input("%s ~ " % str(lineCount))
-    fileContents.append(text + "\n")
+    tmpTexts.append(text + "\n")
     lineCount += 1
     
 except KeyboardInterrupt:
